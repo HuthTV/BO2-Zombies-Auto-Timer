@@ -4,9 +4,11 @@ Compatible with redacted(https://redacted.se/) and plutonium(https://plutonium.p
 
 # Setup
 ### Download
-* If you havent already, download livesplit link.
-* Download ASL script link.
+* If you havent already, download livesplit [livesplit](https://livesplit.org/downloads).
+* Download ASL script [BO2timer.asl]() and save it where you can find it.
 
 ### Configure
-* Open livesplit and right click, select ```edit layout -> add component (plus sign) -> control -> Scriptable Auto Splitter```
-* Still in the layout editor, go to layout settings
+* Open LiveSplit.exe and right click timer
+* Select ```Edit Layout -> Add Component (plus sign) -> Control -> Scriptable Auto Splitter```
+* In Layout Editor, open Layout Settings. Point Scriptable Auto Splitter's  ```Script Path:``` at BO2timer.asl
+* Make sure any timer and split components in your layout have setting ```Timing Method: Game Time```
