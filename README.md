@@ -1,10 +1,10 @@
 # Description
-Livesplit ASL script for BO2 zombies. Automatically starts, resets, and syncs timer with game time. Should be accurate to ± 100ms.
+LiveSplit ASL script for BO2 zombies. Automatically starts, resets, and syncs timer with game time. Should be accurate to ± 100ms.
 Compatible with [Redacted](https://redacted.se) and [Plutonium](https://plutonium.pw).
 
 # Setup
 ### Downloads
-* If you haven't already, download [livesplit](https://livesplit.org/downloads).
+* If you haven't already, download [liveSplit](https://livesplit.org/downloads).
 * Download [BO2timer.asl](https://github.com/HuthTV/BO2-ZM-Synchronized-Livesplit/releases/download/1/BO2timer.asl) script 
 
 ### Configure
