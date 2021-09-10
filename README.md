@@ -10,7 +10,7 @@ Compatible with [Redacted](https://redacted.se) and [Plutonium](https://plutoniu
 ### Configure
 * Open LiveSplit.exe and right click timer
 * Select ```Edit Layout -> Add Component (plus sign) -> Control -> Scriptable Auto Splitter```
-* In Layout Editor, open Layout Settings and go to Scriptable Auto Splitter tab. Point ```Script Path:``` at BO2timer.asl
+* In Layout Editor, open Layout Settings and select Scriptable Auto Splitter tab. Point ```Script Path:``` at BO2timer.asl
 * Make sure any timer and split components in your layout have the setting ```Timing Method: Game Time```
 
 The timer should now work with BO2 Plutonium or Redacted :smile:
