@@ -5,7 +5,7 @@ Compatible with [Redacted](https://redacted.se) and [Plutonium](https://plutoniu
 # Setup
 ### Downloads
 * If you haven't already, download [livesplit](https://livesplit.org/downloads).
-* Download [BO2timer.asl]() script 
+* Download [BO2timer.asl](https://github.com/HuthTV/BO2-ZM-Synchronized-Livesplit/releases/download/1/BO2timer.asl) script 
 
 ### Configure
 * Open LiveSplit.exe and right click timer
