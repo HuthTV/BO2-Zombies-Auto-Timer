@@ -12,6 +12,16 @@ state("plutonium-bootstrapper-win32", "Plutonium")
 	int round: 0x004530D0, 0x4;		//Current round
 }
 
+startup
+{
+	settings.Add("rounds", true, "Round splits");
+	
+	for(int i = 2; i <= 255; i++)
+	{
+		settings.Add(Convert.ToString(i), false, Convert.ToString(i), "rounds");
+	}
+}
+
 start
 {
 	if(current.round == 1)
@@ -39,4 +49,13 @@ isLoading
 gameTime
 {
 	return TimeSpan.FromMilliseconds(current.frame - vars.startFrame);
+}
+
+split
+{
+	if(current.round != old.round)
+	{
+		if(settings[current.round.ToString()])
+			return true;
+	}
 }
