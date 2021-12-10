@@ -5,13 +5,14 @@ Compatible with [Redacted](https://redacted.se) and [Plutonium](https://plutoniu
 # Setup
 ### Downloads
 * If you haven't already, download [liveSplit](https://livesplit.org/downloads).
-* Download [BO2timer.asl](https://github.com/HuthTV/BO2-ZM-Synchronized-Livesplit/releases/download/1/BO2timer.asl) script 
+* Download [BO2timer.asl](https://github.com/HuthTV/BO2-ZM-Synchronized-Livesplit/releases/download/2/BO2timer.asl) script 
 
 ### Configure
 * Open LiveSplit.exe and right click timer
 * Select ```Edit Layout -> Add Component (plus sign) -> Control -> Scriptable Auto Splitter```
 * In Layout Editor, open Layout Settings and select Scriptable Auto Splitter tab. Point ```Script Path:``` at BO2timer.asl
 * Make sure any timer and split components in your layout have the setting ```Timing Method: Game Time```
+* To use autosplits, check all the rounds you wish to split on under the Scriptable Auto Splitter tab
 
 The timer should now work with BO2 Plutonium or Redacted. You might need to restart livesplit and or bo2 for it it work.
 
