@@ -12,6 +12,20 @@ state("plutonium-bootstrapper-win32", "Plutonium")
 	int round: 	0x004530D0, 0x4;		//Current round
 }
 
+//Plutonium
+state("t6zm", "Plutonium R353")
+{
+	int tick:  	0x002AA13C, 0x14;		//Tick counter	 
+	int round: 	0x004530D0, 0x4;		//Current round
+}
+
+//Plutonium
+state("t6rzm", "Plutonium R334/R372")
+{
+	int tick:  	0x002AA13C, 0x14;		//Tick counter	 
+	int round: 	0x004530D0, 0x4;		//Current round
+}
+
 startup
 {
 	refreshRate = 100;
@@ -25,7 +39,6 @@ start
 {
 	if(current.round > 0)
 	{
-		refreshRate = 20;
 		vars.startTick = ( old.round == 0 ? current.tick : 0 );
 		return true;		
 	} 
@@ -33,12 +46,7 @@ start
 
 reset
 {
-	if(current.round == 0)
-	{
-		refreshRate = 100;
-		return true;	
-	}
-		
+	return current.round == 0;		
 }
 
 isLoading
@@ -54,6 +62,5 @@ gameTime
 
 split
 {
-	if(current.round != old.round && settings[current.round.ToString()])
-		return true;
+	return current.round != old.round && settings[current.round.ToString()];
 }
