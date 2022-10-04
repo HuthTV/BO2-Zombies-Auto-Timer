@@ -51,7 +51,7 @@ reset
 
 isLoading
 {
-	timer.CurrentPhase = ( current.tick == old.tick ? TimerPhase.Paused : TimerPhase.Running );
+	timer.CurrentPhase = ( DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() - vars.lastTickUpdate > 50 ? TimerPhase.Paused : TimerPhase.Running );
 	return false;
 }
 
@@ -63,4 +63,11 @@ gameTime
 split
 {
 	return current.round != old.round && settings[current.round.ToString()];
+}
+
+
+update
+{
+	if(current.tick != old.tick)
+		vars.lastTickUpdate = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
 }
