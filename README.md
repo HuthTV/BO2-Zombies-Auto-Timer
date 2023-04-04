@@ -2,16 +2,16 @@ LiveSplit ASL script for BO2 zombies. Automatically starts, resets, and syncs ti
 
 ## Game version support
   [❌] Steam  
-  [✔️] Redacted Christmas ([download](https://mega.nz/file/81FixLzI#SL1KPd4LbVtILjRqpkltPCNC2ymHlfTHBZcZSEU5GFc))   
-  [❌] Redacted Nightly ([download](https://mega.nz/file/19cgxRya#lUftBPHa61jI4mdj7flBKCjPEJfZ8zWK6jkv182zrYA))  
-  [✔️] Redacted LAN ([download](https://mega.nz/file/EpUG2ZKY#1t0ZwhFRIyWa3LHmCysw4WQIFQlqgC-t7HHfVpewdSI))  
-  [✔️] Plutonium R334 ([download](https://mega.nz/file/JsNUgCrS#MbqlEgdl0Gn_L4mYvIVuq0ZiFnXdmDEMhC4aIM1h8QA))  
-  [✔️] Plutonium R353 ([download](https://mega.nz/file/p0MlWYCK#9A6lEer_nHJFuZx4LQYJKEj02QiB-bZHot7eMxqSNQc))  
-  [✔️] Plutonium R372 ([download](https://mega.nz/file/kslERZQa#dSGVNUBPLRXOfaTOWYFPU-_VvdC8fgvna9ybUo0LTjE))   
-  [❌] Modern Plutonium ([download](https://plutonium.pw/))   
+  [✔️] Redacted [Christmas](https://mega.nz/file/81FixLzI#SL1KPd4LbVtILjRqpkltPCNC2ymHlfTHBZcZSEU5GFc)   
+  [❌] Redacted [Nightly](https://mega.nz/file/19cgxRya#lUftBPHa61jI4mdj7flBKCjPEJfZ8zWK6jkv182zrYA)  
+  [✔️] Redacted [LAN](https://mega.nz/file/EpUG2ZKY#1t0ZwhFRIyWa3LHmCysw4WQIFQlqgC-t7HHfVpewdSI)  
+  [✔️] Plutonium [R334](https://mega.nz/file/JsNUgCrS#MbqlEgdl0Gn_L4mYvIVuq0ZiFnXdmDEMhC4aIM1h8QA)  
+  [✔️] Plutonium [R353](https://mega.nz/file/p0MlWYCK#9A6lEer_nHJFuZx4LQYJKEj02QiB-bZHot7eMxqSNQc)  
+  [✔️] Plutonium [R372](https://mega.nz/file/kslERZQa#dSGVNUBPLRXOfaTOWYFPU-_VvdC8fgvna9ybUo0LTjE)  
+  [❌] Plutonium [Modern](https://plutonium.pw/)  
   
 # Setup
-* Download [liveSplit](https://livesplit.org/downloads).
+* Download [livesplit.org/downloads](https://livesplit.org/downloads)
 * Download [BOII_Auto_Timer](https://github.com/HuthTV/BO2-Zombies-Auto-Timer/archive/refs/heads/main.zip)
 
 1. Right-click livesplit and select ```Edit Layout```    
