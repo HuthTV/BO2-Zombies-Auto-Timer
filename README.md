@@ -1,4 +1,8 @@
+## Auto Timer
 LiveSplit ASL script for BO2 zombies. Automatically starts, resets, and syncs timer with game time.
+
+## Modern Plutonium Client
+For use with modern plutonium client use this older version. Does not work properly on motd https://raw.githubusercontent.com/HuthTV/BO2-Zombies-Auto-Timer/68b5c6d87dc8142e01ffb3d60914e8479e704999/BO2timer.asl
 
 ## Game version support
   [❌] Steam  
